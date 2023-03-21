@@ -17,7 +17,6 @@ public class Author {
     public String toString() {
         return "Автор: " + name + " " + surname;
     }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

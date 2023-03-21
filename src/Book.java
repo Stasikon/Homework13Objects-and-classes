@@ -22,7 +22,6 @@ public class Book {
     public String toString() {
         return author + ", книга: " + bookName + " , год публикации: " + publishYear;
     }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

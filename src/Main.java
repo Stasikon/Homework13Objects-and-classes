@@ -1,6 +1,6 @@
 public class Main {
    public static void main(String[] args) {
-       Author keyes = new Author("Дэниел", "Киз");
+       Author keyes = new Author("Дэниел ", "Киз");
        Book multipleMindsofBilly = new Book("Множественные умы Билли Миллигана", keyes, 1970);
        System.out.println(multipleMindsofBilly);
        Author melnikova = new Author("Мария ", "Мельникова");
